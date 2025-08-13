@@ -1,0 +1,7 @@
+{
+  "files.exclude": {
+    "target/": true
+  },
+  "rust-analyzer.cargo.features": "all",
+  "rust-analyzer.check.features": "all"
+}
