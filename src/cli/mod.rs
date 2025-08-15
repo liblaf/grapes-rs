@@ -37,16 +37,16 @@ pub enum Commands {
     GenMarkdown(Markdown),
 }
 
-pub enum ExecuteResult {
-    EarlyExit,
-    Success,
+pub enum Outcome {
+    Continue,
+    Exit,
 }
 
 impl<L> Shared<L>
 where
     L: clap_verbosity_flag::LogLevel,
 {
-    pub fn execute<C>(&self) -> Result<ExecuteResult>
+    pub fn invoke<C>(&self) -> Result<Outcome>
     where
         C: clap::CommandFactory,
     {
@@ -54,18 +54,18 @@ where
             Some(command) => {
                 match command {
                     #[cfg(feature = "clap-complete")]
-                    Commands::Completion(completion) => completion.execute::<C>(),
+                    Commands::Completion(completion) => completion.invoke::<C>(),
                     #[cfg(feature = "clap-markdown")]
-                    Commands::GenMarkdown(markdown) => markdown.execute::<C>(),
+                    Commands::GenMarkdown(markdown) => markdown.invoke::<C>(),
                     #[allow(unreachable_patterns)]
                     _ => {}
                 }
-                return Ok(ExecuteResult::EarlyExit);
+                return Ok(Outcome::Exit);
             }
             None => {}
         }
         self.init_logging()?;
-        Ok(ExecuteResult::Success)
+        Ok(Outcome::Continue)
     }
 
     pub fn init_logging(&self) -> Result<()> {

@@ -2,7 +2,7 @@
 pub struct Markdown {}
 
 impl Markdown {
-    pub fn execute<C>(&self)
+    pub fn invoke<C>(&self)
     where
         C: clap::CommandFactory,
     {

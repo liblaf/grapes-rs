@@ -5,7 +5,7 @@ pub struct Completion {
 }
 
 impl Completion {
-    pub fn execute<C>(&self)
+    pub fn invoke<C>(&self)
     where
         C: clap::CommandFactory,
     {
