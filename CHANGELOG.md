@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.2.1](https://github.com/liblaf/grapes-rs/compare/v0.2.0..v0.2.1) - 2025-08-24
+
+### ⬆️ Dependencies
+
+- **deps:** update rust crate clap-verbosity-flag to v3.0.4 (#6) - ([3ec5a56](https://github.com/liblaf/grapes-rs/commit/3ec5a566a1d7bc852dd3cf86a94cbf14656b1cbb))
+
+### ❤️ New Contributors
+
+- [@liblaf-bot[bot]](https://github.com/apps/liblaf-bot) made their first contribution
+- [@renovate[bot]](https://github.com/apps/renovate) made their first contribution in [#6](https://github.com/liblaf/grapes-rs/pull/6)
+
 ## [0.2.0](https://github.com/liblaf/grapes-rs/compare/v0.1.0..v0.2.0) - 2025-08-17
 
 ### 💥 BREAKING CHANGES
@@ -9,11 +20,6 @@
 ### 🔧 Continuous Integration
 
 - remove consolidated CI workflow - ([3f4fc9a](https://github.com/liblaf/grapes-rs/commit/3f4fc9ae4fcda4bc383b3459af9bcc08a311e433))
-
-### ❤️ New Contributors
-
-- [@liblaf-bot[bot]](https://github.com/apps/liblaf-bot) made their first contribution
-- [@liblaf](https://github.com/liblaf) made their first contribution
 
 ## [0.1.0] - 2025-08-13
 
