@@ -1,15 +1,20 @@
 # Changelog
 
+## [0.2.2](https://github.com/liblaf/grapes-rs/compare/v0.2.1..v0.2.2) - 2025-08-26
+
+### ⬆️ Dependencies
+
+- **deps:** update rust crate clap to v4.5.46 (#9) - ([4530571](https://github.com/liblaf/grapes-rs/commit/453057119a0f6e119be9739e8ff750d807ac2506))
+
+### ❤️ New Contributors
+
+- [@renovate[bot]](https://github.com/apps/renovate) made their first contribution in [#9](https://github.com/liblaf/grapes-rs/pull/9)
+
 ## [0.2.1](https://github.com/liblaf/grapes-rs/compare/v0.2.0..v0.2.1) - 2025-08-24
 
 ### ⬆️ Dependencies
 
 - **deps:** update rust crate clap-verbosity-flag to v3.0.4 (#6) - ([3ec5a56](https://github.com/liblaf/grapes-rs/commit/3ec5a566a1d7bc852dd3cf86a94cbf14656b1cbb))
-
-### ❤️ New Contributors
-
-- [@liblaf-bot[bot]](https://github.com/apps/liblaf-bot) made their first contribution
-- [@renovate[bot]](https://github.com/apps/renovate) made their first contribution in [#6](https://github.com/liblaf/grapes-rs/pull/6)
 
 ## [0.2.0](https://github.com/liblaf/grapes-rs/compare/v0.1.0..v0.2.0) - 2025-08-17
 
