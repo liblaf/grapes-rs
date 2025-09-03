@@ -1,14 +1,22 @@
 # Changelog
 
-## [0.2.2](https://github.com/liblaf/grapes-rs/compare/v0.2.1..v0.2.2) - 2025-08-26
+## [0.2.3](https://github.com/liblaf/grapes-rs/compare/v0.2.2..v0.2.3) - 2025-09-03
+
+### ⬆️ Dependencies
+
+- **deps:** update rust crate clap to v4.5.47 (#14) - ([c33409a](https://github.com/liblaf/grapes-rs/commit/c33409a99d2b39c749f058e1eea24d53ec329203))
+- **deps:** update rust crate tracing-subscriber to v0.3.20 [security] (#12) - ([d102438](https://github.com/liblaf/grapes-rs/commit/d102438326d374eddf4e8ec4039a136b9d47f17a))
+
+### ❤️ New Contributors
+
+- [@liblaf-bot[bot]](https://github.com/apps/liblaf-bot) made their first contribution
+- [@renovate[bot]](https://github.com/apps/renovate) made their first contribution in [#14](https://github.com/liblaf/grapes-rs/pull/14)
+
+## [0.2.2](https://github.com/liblaf/grapes-rs/compare/v0.2.1..v0.2.2) - 2025-08-31
 
 ### ⬆️ Dependencies
 
 - **deps:** update rust crate clap to v4.5.46 (#9) - ([4530571](https://github.com/liblaf/grapes-rs/commit/453057119a0f6e119be9739e8ff750d807ac2506))
-
-### ❤️ New Contributors
-
-- [@renovate[bot]](https://github.com/apps/renovate) made their first contribution in [#9](https://github.com/liblaf/grapes-rs/pull/9)
 
 ## [0.2.1](https://github.com/liblaf/grapes-rs/compare/v0.2.0..v0.2.1) - 2025-08-24
 
