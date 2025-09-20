@@ -2,7 +2,7 @@
 
 [package]
 name = "liblaf-grapes"
-version = "0.2.3"
+version = "0.2.4"
 authors = ["liblaf <30631553+liblaf@users.noreply.github.com>"]
 edition = "2024"
 description = "A short description of my package"

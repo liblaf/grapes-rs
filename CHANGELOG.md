@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.2.4](https://github.com/liblaf/grapes-rs/compare/v0.2.3...v0.2.4) (2025-09-20)
+
+
+### 🐛 Bug Fixes
+
+* **deps:** update rust crate clap to v4.5.48 ([#17](https://github.com/liblaf/grapes-rs/issues/17)) ([e237ab5](https://github.com/liblaf/grapes-rs/commit/e237ab53eab253271b1c5dcede43fb97d562007b))
+* **deps:** update rust crate clap_complete to v4.5.58 ([#15](https://github.com/liblaf/grapes-rs/issues/15)) ([8a12592](https://github.com/liblaf/grapes-rs/commit/8a125929bd6b244f4429f1117a4eb06fcd589f7c))
+
 ## [0.2.3](https://github.com/liblaf/grapes-rs/compare/v0.2.2..v0.2.3) - 2025-09-03
 
 ### ⬆️ Dependencies
